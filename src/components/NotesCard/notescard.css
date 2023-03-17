@@ -1,0 +1,42 @@
+.notescard-container{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width:310px;
+    color: white;
+    background-color: black;
+    align-items: center;
+   border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(16, 16, 126);
+}
+.check-icon{
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 19px;
+   
+    
+}
+.sublist{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+
+    
+}
+.dustbin-icon{
+    position: relative;
+    float: right;
+    top:10px
+}
+.list-wall{
+    width: 200px;
+    height: 20px;
+    
+}

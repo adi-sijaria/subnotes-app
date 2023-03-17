@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Searchbox from './components/SearchBox/searchbox';
+import NotesCard from './components/NotesCard/NotesCard';
+import { useSelector } from 'react-redux';
 
 function App() {
+  const notes=useSelector((state)=>{return state.notes.Notes} )
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Searchbox/>
+    <div className='notes-main-container'>
+    {notes.map((note,id)=><NotesCard notes={note} id={id}  />)}
     </div>
+    </>
+    
+
   );
 }
 
