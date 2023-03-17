@@ -6,5 +6,12 @@
     position: relative;
     /* right: 20px; */
     text-align: center;
+    /* border-radius: 0px 0px 0px 0px; */
+    font-family: 'Rubik', sans-serif;
 
+}
+.addsubnote-button{
+    position: relative;
+    top:8px;
+    margin-left: 5px;
 }
