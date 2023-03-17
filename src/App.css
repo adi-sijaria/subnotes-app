@@ -15,7 +15,7 @@
    margin-left: 100px;
 
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 564px) {
   .notes-main-container{
     display:grid;
     grid-template-columns: repeat(2,1fr);
@@ -30,7 +30,7 @@
      margin-left: 10px;
   
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 482px) {
     .notes-main-container{
       display:grid;
       grid-template-columns: repeat(1,1fr);
