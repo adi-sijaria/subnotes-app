@@ -2,12 +2,19 @@
     width: 400px;
     height: 30px;
     padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    border-radius: 30px;
+
+  
+    
 
 }
 .search-box-container{
     position: relative;
     left:400px;
     top:100px;
+    
     
 
 }

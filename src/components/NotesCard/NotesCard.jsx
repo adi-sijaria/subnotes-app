@@ -22,7 +22,7 @@ const NotesCard = ({notes,id}) => {
     <div className='notescard-container'>
         <div className='heading'>
             <h1>{heading}</h1>
-            <BsCheckCircle className='check-icon' size={30} onClick={()=>removenote(notes)} />
+            <RiDeleteBin6Line className='check-icon' size={30} onClick={()=>removenote(notes)} />
             
 
         </div>
@@ -36,8 +36,10 @@ const NotesCard = ({notes,id}) => {
                     <>
                     <div className="sublist">
                     <h1 style={{fontSize:"17px" }}  className="list-wall">{ID+1})   {note.list}</h1>
-                    <RiDeleteBin6Line className='dustbin-icon' onClick={()=>removesubnotes({id:id,list:note.list})}/>
+                    <BsCheckCircle className='dustbin-icon' onClick={()=>removesubnotes({id:id,list:note.list})}/>
                     </div> 
+                    {/* RiDeleteBin6Line
+                    sCheckCircle */}
                     </>
                 )
             })}
