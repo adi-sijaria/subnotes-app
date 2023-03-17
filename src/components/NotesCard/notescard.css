@@ -15,9 +15,11 @@
     background-color: rgb(16, 16, 126);
     text-shadow: 2px 2px 5px red;
     font-family: 'Rubik', sans-serif;
+    
 
     
 }
+
 .check-icon{
     float: right;
     position: relative;
